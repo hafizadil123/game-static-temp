@@ -1,0 +1,768 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&display=swap");
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Orbitron", sans-serif !important;
+  background: rgb(0, 20, 45) !important;
+}
+
+#navbar {
+  height: 70px;
+}
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  background: rgb(25, 100, 225);
+}
+#navbar .row > * {
+  padding-left: 0;
+  padding-right: 8px;
+}
+.container-main {
+  max-width: 1030px;
+  width: 90%;
+  margin: 0 auto;
+  height: 20px;
+}
+#navbar .nav-links i {
+  font-size: 25px;
+  padding: 0.7rem 1rem;
+  border-right: 0.7px solid black;
+  transform: translateX(-4px);
+  color: #000;
+}
+
+#navbar .nav-links img{
+  width: 58px;
+  background: rgb(25, 100, 225);
+  padding: 16px 1rem;
+  border-left: 0.7px solid black;
+  border-right: 0.7px solid black;
+  margin-top: -12px;
+}
+@media only screen and (max-width: 1000px) {
+  .container-main {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    height: 20px;
+  }
+}
+
+/* <!-- ####################   NAVBAR FINISH  $$$$$$$$$$$$$$$$ --> */
+
+/* <!-- ####################   SHOWCASE-1  $$$$$$$$$$$$$$$$ --> */
+
+#showcase-1:not(.border-none) {
+  max-width: 700px;
+  width: 90%;
+  padding: 1.6rem 0 1rem 0;
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 3px solid rgb(25, 100, 225);
+}
+.container-fluid a:hover {
+  color: #32c8ff;
+  text-decoration: underline;
+}
+.container-fluid a {
+  text-decoration: none;
+  color: #32c8ff;
+  font-weight: 600;
+}
+#showcase-1 i {
+  color: #32c8ff;
+  margin-bottom: 1rem;
+}
+
+/* <!-- $$$$$$$$$$$$$$$$$$  FOOTER $$$$$$$$$$$$$$$ --> */
+
+#footer {
+  text-align: center;
+  color: #fff;
+  margin-top: 3rem;
+  background: rgb(1,18,66);
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+  position: absolute;
+  display: block !important;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+#footer-2{
+  text-align: center;
+  color: #fff;
+  margin-top: 3rem;
+  background: rgb(1,18,66);
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+  position: absolute;
+  display: block !important;
+  margin-top: 1rem;
+  width: 100%;
+  bottom: 0%;
+}
+#footer-3{
+  text-align: center;
+  color: #fff;
+  margin-top: 3rem;
+  background: rgb(1,18,66);
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+  position: absolute;
+  display: block !important;
+  margin-top: 1rem;
+  width: 99%;
+  bottom: 0%;
+}
+#footer p,
+#footer-2 p,
+#footer-3 p{
+      margin-bottom: 0px !important;
+      padding-bottom: 10px;
+}
+
+/* <!-- $$$$$$$$$$$$$$$$$$  FOOTER  END $$$$$$$$$$$$$$$ --> */
+
+/* $$$$$$$$$$$$$$$$$$  flag.html $$$$$$$$$$$$$$$ */
+
+#dropdown {
+  max-width: 910px;
+  position: absolute;
+  margin: 0 auto;
+  margin-bottom: 90vh;
+}
+
+.flags {
+  margin: 0 auto;
+  text-align: end;
+  display: inline-block;
+  border: 3px solid rgb(25, 100, 225);
+  color: rgb(25, 100, 225);
+  padding: 4px 4px 2px 4px;
+  transform: translateX(-238px);
+  position: fixed;
+  width: 300px;
+  border-top: none;
+}
+.flag {
+  display: flex;
+  padding: 7px 7px;
+  border-left: 9px solid rgb(25, 100, 225);
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+#dropdown .flags .flag img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background: none !important;
+  border: none !important;
+  padding: 0 0 !important;
+  transform: translateY(15px);
+}
+.flag h1 {
+  font-size: 1rem;
+  margin-left: 6px;
+  font-weight: 700;
+  padding-top: 5px;
+  margin-bottom: 0;
+}
+.flag-1 {
+  border-left: 9px solid rgb(50, 254, 200);
+}
+
+.flag-1 {
+  background: rgb(25, 100, 225);
+}
+#footer-flags {
+  margin-top: 80vh;
+  text-align: center;
+  color: #fff;
+}
+#navbar .nav-flag img {
+  background: #000;
+}
+
+@media only screen and (max-width: 400px) {
+  .flags {
+    width: 270px;
+    transform: translateX(-210px);
+    text-align: left;
+  }
+}
+
+/* <!-- $$$$$$$$$$$$$$$$$$  flag.html END $$$$$$$$$$$$$$$ --> */
+
+/* <!-- $$$$$$$$$$$$$$$$$$  hamburger.html START $$$$$$$$$$$$$$$ --> */
+
+#navbar .hamburger-items {
+  transform: translateX(-182px);
+}
+#navbar .hamburger-links img {
+  background: rgb(25, 100, 225);
+}
+
+#navbar .hamburger-items i {
+  font-size: 1rem;
+  text-align: start;
+  color: rgb(25, 100, 225);
+}
+#navbar .hamburger-items .flag {
+  padding: 0px 7px;
+  padding: 0rem 0.5rem;
+  background: rgba(12, 51, 119, 0.733);
+}
+#navbar .hamburger-items .flag a {
+  text-decoration: none;
+}
+#navbar .hamburger-items .flag-1 {
+  border-left: 9px solid rgb(25, 100, 225) !important;
+  background: rgba(12, 51, 119, 0.733);
+}
+#navbar .hamburger-items .flag-5 {
+  border-left: 9px solid rgb(50, 254, 200);
+  background: rgb(25, 100, 225);
+  z-index: 100;
+}
+#navbar .hamburger-items .flag-5 a,
+#navbar .hamburger-items .flag-5 i {
+  color: #000;
+}
+
+#navbar .hamburger-items .flag-1 a {
+  color: rgb(25, 100, 225);
+}
+#navbar .hamburger-items .flag a {
+  margin-left: 0;
+  margin: auto 0;
+}
+
+@media only screen and (max-width: 400px) {
+  #dropdown .hamburger-items {
+    /* width: 270px; */
+    transform: translateX(-153px);
+    text-align: left;
+  }
+}
+
+/* #######################  BORDER-SECTION  %%%%%%%%%%%%%%%%% */
+
+.border-main {
+  border: thin solid rgb(25, 100, 255);
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  position: relative;
+}
+.stripe-1 {
+  width: 20px;
+  height: 20px;
+  border-bottom: 5px solid rgb(25, 100, 225);
+  border-left: 5px solid rgb(25, 100, 225);
+  border-bottom-left-radius: 25px;
+  position: absolute;
+  bottom: 0%;
+}
+.stripe-2 {
+  width: 20px;
+  height: 20px;
+  border-top: 5px solid rgb(25, 100, 225);
+  border-right: 5px solid rgb(25, 100, 225);
+  border-top-right-radius: 25px;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+.stripe-3 {
+  width: 20px;
+  height: 20px;
+  border-bottom: 5px solid rgb(25, 100, 225);
+  border-right: 5px solid rgb(25, 100, 225);
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  position: absolute;
+}
+
+.stripe-curve-line {
+  width: 10px;
+  height: 32px;
+  background: rgb(25, 100, 225);
+  clip-path: polygon(0 1%, 55% 0, 0 100%, 0% 100%);
+}
+
+.border-main p.top {
+  padding: 3px 5px;
+  background: rgb(25, 100, 225);
+  color: #000;
+  font-weight: 700;
+  width: 100%;
+  height: 30px;
+  font-size: 15px;
+}
+
+.row > * {
+  padding-left: 0% !important;
+  padding-right: 0% !important;
+}
+.top-content {
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+}
+
+.curved-line-1 {
+  width: 10px;
+  height: 29px;
+  background: rgb(25, 100, 225);
+  flex-shrink: 1;
+  transform: skew(-46deg);
+  margin-left: 7px;
+}
+.border-main .row .curved-line-2 {
+  width: 10px;
+  height: 29px;
+  background: rgb(25, 100, 225);
+  transform: skew(-46deg);
+}
+.curved-line-3 {
+  width: 10px;
+  height: 29px;
+  background: rgb(25, 100, 225);
+  transform: skew(-46deg);
+}
+.curver-line-content {
+  display: flex;
+  justify-content: space-between;
+}
+.curver-line-content {
+  transform: translateX(-6px);
+}
+
+/* #######################  BORDER END  %%%%%%%%%%%%%%%%% */
+
+/* #######################  BORDER RESPONSIVE  %%%%%%%%%%%%%%%%% */
+
+@media only screen and (max-width: 1400px) {
+  .border-main p.top {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .curved-line-1 {
+    transform: skew(-54deg);
+  }
+  .border-main .row .curved-line-2 {
+    transform: skew(-54deg);
+  }
+  .curved-line-3 {
+    transform: skew(-54deg);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .border-main p.top {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .curved-line-1 {
+    transform: skew(-52deg);
+  }
+  .border-main .row .curved-line-2 {
+    transform: skew(-52deg);
+    margin-left: 10px;
+  }
+  .curved-line-3 {
+    transform: skew(-52deg);
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .curved-line-1 {
+    margin-left: 10px;
+  }
+  .border-main .row .curved-line-2 {
+    transform: skew(-50deg);
+  }
+  .curved-line-3 {
+    transform: skew(-50deg);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .curved-line-1 {
+    transform: skew(-45deg);
+  }
+  .border-main .row .curved-line-2 {
+    transform: skew(-45deg);
+  }
+  .curved-line-3 {
+    transform: skew(-45deg);
+  }
+  .border-main p.top {
+    font-size: 11px;
+    font-weight: 900;
+  }
+}
+/* #######################  BORDER RESPONSIVE END  %%%%%%%%%%%%%%%%% */
+
+/* #######################  REGISTER.HTML  %%%%%%%%%%%%%%%%% */
+
+#form-1 {
+  padding: 0 20px 10px 20px;
+}
+#form-1 p.form-heading {
+  color: rgb(25, 100, 225);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 12px;
+  padding-top: 4px;
+}
+#form-1 .input p i {
+  text-align: end;
+}
+
+#form-1 .input p {
+  background: rgb(50, 200, 255);
+  color: #000;
+  font-weight: 700;
+  transform: translateY(20px);
+  padding: 0 auto;
+  text-align: center;
+}
+#form-1 input:focus ~ #form-1 .input p {
+  font-size: 3rem;
+}
+
+#form-1 input {
+  width: 100%;
+  outline: none;
+  border: 1px solid rgb(50, 200, 255);
+  background: #000;
+  padding: 6px;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+#form-1 button {
+  background: rgb(50, 254, 200);
+  margin: 1rem auto;
+  color: #000;
+  border-radius: 0%;
+  border: none;
+  max-width: 100%;
+  padding: 10px 20px;
+  font-size: 90%;
+  text-align: center;
+  font-weight: 800;
+}
+#form-1 button:hover {
+  background: #000;
+  color: rgb(50, 254, 200);
+  border: 2px solid rgb(50, 254, 200);
+  padding: 8px 20px;
+}
+
+.Already-account p {
+  color: rgb(25, 100, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Already-account span a {
+  font-family: "Orbitron", sans-serif !important;
+  color: rgb(50, 200, 255) !important;
+  font-weight: 800;
+  text-decoration: none;
+}
+.Already-account span a:hover {
+  text-decoration: underline;
+}
+
+/* #######################  REGISTER.HTML END %%%%%%%%%%%%%%%%% */
+
+#form-1 .input-3 {
+  outline: none;
+  background: #000;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+#form-1 .input-3 p {
+  font-size: 1rem;
+}
+
+#form-1 .col-1 i {
+  color: rgb(50, 200, 255);
+  border-right: 1px solid rgb(50, 200, 255);
+  border-bottom: 1px solid rgb(50, 200, 255);
+  padding-left: 0%;
+  padding: 0.8rem 1rem;
+  width: 100%;
+  /* transform: translateX(15px); */
+  margin-top: 2.7rem;
+  text-align: center;
+}
+
+#form-1 .col-1 i:hover {
+  color: #000;
+  background: rgb(50, 200, 255);
+  cursor: pointer;
+}
+
+#form-meter .box-1 {
+  width: 20px;
+  height: 10px;
+  /* display: inline-block; */
+  display: flex;
+  flex-direction: row;
+  background: rgb(50, 200, 255);
+  border: 1px solid rgb(25, 100, 255);
+  margin-left: none !important;
+}
+#form-meter .box-2 {
+  width: 20px;
+  height: 10px;
+  /* display: inline-block; */
+  display: flex;
+  flex-direction: row;
+  background: #000;
+  border: 1px solid rgb(25, 100, 255);
+  margin-left: none !important;
+}
+a.text-center {
+  display: block;
+}
+
+.unable-para {
+  color: rgb(25, 100, 255);
+  margin-top: 1rem;
+}
+
+/* <!-- ####################   SHOWCASE-1  $$$$$$$$$$$$$$$$ --> */
+
+#user-account-menu .col-5 {
+  color: rgb(25, 100, 255);
+}
+#user-account-menu a h5 {
+  color: rgb(25, 100, 255);
+  background: #000;
+  border-left: 10px solid rgb(25, 100, 225);
+  margin-bottom: 3px !important;
+}
+#user-account-menu h5 {
+  color: #000;
+  background: rgb(0, 81, 243);
+  border: 1px solid rgb(0, 81, 243);
+  font-size: 1rem;
+  padding: 10px;
+  font-weight: 800;
+}
+.user-account-menu-main {
+  border: none !important;
+  font-size: 0.9rem;
+}
+#user-account-menu h5 i {
+  padding-right: 10px;
+}
+@media only screen and (max-width: 500px) {
+  #user-account-menu h5 {
+    font-size: 10px;
+  }
+}
+
+/* <!-- ####################   PROFILE PHOTO.HTML  $$$$$$$$$$$$$$$$ --> */
+
+#profile-photo-container {
+  max-width: 1030px;
+  width: 90%;
+  margin: 0 auto;
+}
+#profile-photo-container p {
+  color: rgb(25, 100, 225);
+  text-align: center;
+}
+.profile-box .col-11 {
+  border: 2px solid rgb(50, 200, 255);
+}
+.profile-box {
+  text-align: center;
+}
+.profile-box .col-11 button {
+  padding: 8px 14px;
+  color: rgb(50, 200, 255);
+  margin: 1rem 0;
+  font-size: 12px;
+  font-weight: 800;
+  border: 1px solid rgb(50, 200, 255);
+}
+.profile-box .col-11 .circle {
+  border: 4px solid rgb(50, 200, 255);
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.profile-box .col-11 input[type="range"] {
+  width: 270px;
+  margin: 1.5rem 0;
+}
+
+#profile-photo-container .profile-photo-btn button {
+  background: rgb(50, 254, 200);
+  color: #000;
+  display: block;
+  margin: 1rem auto;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 800;
+  border: 2px solid rgb(50, 254, 200);
+  border-radius: 0%;
+}
+#profile-photo-container .profile-photo-btn button:hover {
+  background: #000;
+  color: rgb(50, 254, 200);
+}
+
+#profile-photo-container h5.bg-blue {
+  background: rgb(0, 81, 243);
+  border: none;
+  color: #000;
+  border-left: 8px solid rgb(50, 254, 200);
+}
+#profile-photo-container p.circle-outside-para {
+  background: rgb(50, 200, 255);
+  color: #000;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 992px) {
+  #profile-photo-container #user-account-menu {
+    display: none;
+  }
+  #back-button {
+    display: inline-block !important;
+  }
+}
+#back-button {
+  display: none;
+  margin-bottom: 1rem;
+}
+
+/* <!-- ####################   personal-info.html  $$$$$$$$$$$$$$$$ --> */
+
+.personal-info-input input {
+  width: 100%;
+  transform: translateY(-10px);
+  height: 40px;
+  background: #000;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 800;
+  padding-left: 10px;
+}
+
+/* <!-- ####################   INFO.html  $$$$$$$$$$$$$$$$ --> */
+
+#profile-photo-container h5 {
+  color: rgb(50, 200, 255);
+  text-align: start;
+  padding-left: 10px;
+  margin: 0 auto;
+}
+#profile-photo-container .email-main-content {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 1rem 0 0;
+  border-bottom: 2px solid rgb(0, 81, 243);
+}
+
+#profile-photo-container .email-main-content span.text-red {
+  color: red;
+}
+#profile-photo-container .email-main-content h6 {
+  color: red;
+  font-weight: 700;
+}
+#profile-photo-container .email-main-content p {
+  color: rgb(50, 200, 255);
+  font-weight: 500;
+  font-size: 18px;
+  font-weight: 500;
+}
+#profile-photo-container .email-main-content button {
+  color: rgb(50, 200, 255);
+  border: 1px solid rgb(50, 200, 255);
+  font-weight: 700;
+  font-size: 13px;
+  border-radius: none;
+  margin-bottom: 1.5rem;
+}
+#profile-photo-container .email-main-content button:hover {
+  color: #000;
+  background: rgb(50, 200, 255);
+}
+.hr-bottom {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1rem 0;
+}
+.email-bottom p {
+  background-color: rgb(50, 200, 255);
+  color: #000 !important;
+  font-size: 13px;
+  font-weight: 900;
+  transform: translateY(20px);
+}
+.email-bottom input {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  border: 1px solid rgb(50, 200, 255);
+  padding: 10px;
+  font-weight: 900;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+
+
+
+
+.centra{
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  display: none;
+}
+h5#onclick{
+position: relative;
+}
+#checkbox{
+  top: 0%;
+  width: 100%;
+  height: 40px;
+  position: calc();
+  background-color: yellow;
+  opacity: 1;
+  transform: translateY(-30px);
+}
+
+ h5#onclick:focus-within .centra{
+   display: block;
+ }
+
+
+
+
